@@ -1,0 +1,243 @@
+
+.tituloma{
+    margin-top: 5em;
+    border-bottom: 2px solid white; 
+  }
+  
+  div.puntos{
+    display: block;
+    max-width: 100%;
+  }
+  section.txt-1, aside{
+    background-color: transparent;
+    border-radius: 0.5em;
+    display: inline-block;
+    margin: 0 ;
+    max-width: 100%;
+    padding: 0.25em;
+    vertical-align: top;
+    width: 40%;
+    margin: 0px 40px;
+    
+  }
+  aside.txt-2{
+    width: 40%;
+  
+  }
+  .tmatri{
+    color: #ffffff;
+    font-family: helvetica;
+    font-size: 1.5em;
+    text-align: left;
+    padding: 10px 10px;
+  }
+  
+  div.datos{
+    margin-top: 5%;
+    color: #F4D03F  ;
+    font-size: 1em;
+    text-align: center;
+  }
+  
+  div.todo{
+        display:flex;
+        max-width: 90%;
+        justify-content: center;
+  }
+  section.apoderado{
+    margin-left: 10%;
+    max-width: 40%;
+    flex: 1;
+    border: 4px solid rgba(255, 255, 255, 0.25);
+    background-color:rgba(255, 255, 255, 0.20) ;
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+  }
+  section.alumno{
+    margin-left: 5%;
+    max-width: 40%;
+    flex: 1;
+    border: 4px solid rgba(255, 255, 255, 0.25);
+    background-color:rgba(255, 255, 255, 0.20) ;
+    border-radius: 20px;
+    padding: 10px 20px;
+  
+  }
+  .espaciomatriputnos{
+    margin-left: 10%;
+  }
+  
+  div.imput{
+    margin: 2%;
+    text-align: center;
+    justify-content: center;
+  }
+  .btnenviarform{
+    margin: 2%;
+    background-color: rgba(0, 17, 255, 0.413);
+    border-radius: 10px;
+    padding: 8px 8px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  .btnenviarform:hover{
+    font-size: 1.2em;
+  }
+  h2.titulo {
+    border-bottom: 2px solid white;
+  }
+  
+
+
+  
+  @media (max-width: 320px) {
+    
+    .todo, .espaciomatriputnos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .espaciomatriputnos{
+        max-width: 100%;
+        font-size: 1em;
+        display: block;
+    }
+    .txt-1, .txt-2{
+        
+        width: 40%;
+    }
+    .apoderado{
+        margin-bottom: 10%;
+        width: 80%;
+    }
+    .alumno{
+        margin-left: 20%;
+        width: 80%;
+    }
+    body div section.apoderado{
+        margin-bottom: 10%;
+        width: 100%;
+        max-width: 100%;
+    }
+    body div section.alumno{
+        margin-left: 20%;
+        width: 100%;
+        max-width: 100%;
+    }
+    }
+  @media  (max-width: 480px){
+    .puntos{
+      margin-left: -10%;
+    }
+  }
+
+  @media (max-width: 768px) {
+        .todo, .espaciomatriputnos{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .espaciomatriputnos{
+            max-width: 100%;
+            font-size: 1em;
+            display: block;
+            margin-left: -10%;
+        }
+        .txt-1, .txt-2{
+            
+            width: 40%;
+        }
+        body div section.apoderado{
+            margin-bottom: 10%;
+            width: 100%;
+            max-width: 100%;
+        }
+        body div section.alumno{
+            margin-left: 20%;
+            width: 100%;
+            max-width: 100%;
+        }
+        
+
+    }
+    
+        
+    @media (max-width: 858px){
+    .todo, .espaciomatriputnos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .espaciomatriputnos{
+        max-width: 100%;
+        font-size: 1em;
+        display: block;
+        margin-left: -10%;
+    }
+    .txt-1, .txt-2{
+        
+        width: 40%;
+    }
+    body div section.apoderado{
+        margin-bottom: 10%;
+        width: 100%;
+        max-width: 100%;
+    }
+    body div section.alumno{
+        margin-left: 20%;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    }
+    
+    @media (max-width: 952px){
+        .espaciomatriputnos{
+            margin-left: 2%;
+          }
+        div.puntos{
+            display: flex;
+            max-width: 100%;
+            font-size: 0.8em;
+
+          }
+          
+    }
+
+  
+
+    @media (max-width: 1024px) {
+        .espaciomatriputnos{
+            margin-left: 2%;
+          }
+
+          div.puntos{
+            display: flex;
+            max-width: 100%;
+            font-size: 0.8em;
+
+          }
+
+    }
+    
+    @media (max-width: 1280px) {
+        .espaciomatriputnos{
+            margin-left: 2%;
+          }
+
+    }
+
+
+    @media (max-width: 1440px) {
+        /*barra de navegacion*/
+    
+
+    }
+    
+    @media (min-width: 1441px) {
+    
+
+}
+
+  
+  /* Fin pagina matricula*/
+  
